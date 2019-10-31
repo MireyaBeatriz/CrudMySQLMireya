@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6DBE7A"
+    tools:context=".consultaSpinner">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione una opción"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#0F0D0D"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        />
+
+    <Spinner
+        android:id="@+id/sp_options"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:drawSelectorOnTop="true"
+        android:spinnerMode="dropdown"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="15dp" />
+    <!--android:background="@drawable/estilos3spinner"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/tv_codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Código:"
+            android:textSize="28dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#0F0D0D"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="bold"
+            />
+        <TextView
+            android:id="@+id/tv_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="bold"
+            android:text="Descripción:"
+            android:textColor="#0F0D0D"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/tv_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="bold"
+            android:text="Precio:"
+            android:textColor="#0F0D0D"
+            android:textSize="28dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

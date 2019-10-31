@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Por Codigo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"/>
+
+
+
+    <EditText
+        android:id="@+id/et_cod"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginRight="15dp"
+        android:drawablePadding="5dp"
+        android:background="@drawable/style_input"
+        android:drawableStart="@drawable/ic_descr"
+        android:hint="Ingrese el código"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="243dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="15dp"
+        android:drawablePadding="5dp"
+        android:background="@drawable/style_button"
+        android:drawableStart="@drawable/ic_lupa"
+        android:onClick="buscar"
+        android:text="Buscar" />
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
